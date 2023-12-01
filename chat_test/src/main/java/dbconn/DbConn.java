@@ -18,7 +18,7 @@ public class DbConn {
 			Class clz = Class.forName("com.mysql.cj.jdbc.Driver");
 			conn = DriverManager.getConnection(url, user, password);
 		} catch (Exception e) {			
-			e.printStackTrace();
+			e.printStackTrace(); 
 		}		
 		
 		return conn;
